@@ -14,6 +14,7 @@ export function Hero() {
         alt="Arreglo floral en tonos rosa, marfil y verde oliva"
         fill
         priority
+        loading="eager"
         quality={92}
         className="object-cover object-[64%_center] sm:object-center"
         sizes="100vw"

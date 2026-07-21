@@ -20,9 +20,19 @@ yarn-error.log*
 
 # env files
 .env*
+!.env.example
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
+
+# tests and temporary artifacts
+/coverage/
+/playwright-report/
+/test-results/
+/screenshots/
+*.log
+*.tmp
+*.temp

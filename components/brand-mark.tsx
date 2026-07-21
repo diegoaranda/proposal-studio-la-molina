@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
 
 export function BrandMark({ className }: { className?: string }) {
-  // TODO: sustituir por logo oficial antes de publicar.
   return (
     <div
       role="img"

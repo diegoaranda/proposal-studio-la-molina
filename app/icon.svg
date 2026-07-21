@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#faf7f2" />
+  <circle cx="32" cy="32" r="23" fill="#4e5835" />
+  <text
+    x="32"
+    y="38"
+    fill="#ffffff"
+    font-family="Georgia, serif"
+    font-size="20"
+    text-anchor="middle"
+  >LM</text>
+  <path d="M22 45h20" stroke="#c8a665" stroke-width="2" stroke-linecap="round" />
+</svg>
