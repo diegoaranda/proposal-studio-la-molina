@@ -7,8 +7,8 @@ export function Timeline() {
     <section id="proceso" className="proposal-section bg-white">
       <div className="proposal-container flex flex-col gap-16">
         <SectionHeading
-          title="El camino para hacerlo realidad"
-          description="En cada etapa sabrás qué está pasando, qué viene después y cuándo será importante contar con tu mirada."
+          title="Así lo haríamos juntos"
+          description="Siempre sabrás dónde estamos y qué necesito de ti para seguir avanzando."
         />
 
         <div className="hidden md:block">

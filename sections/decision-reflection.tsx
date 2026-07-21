@@ -6,19 +6,19 @@ export function DecisionReflection() {
     <section id="decision" className="proposal-section bg-white">
       <div className="proposal-container flex flex-col gap-14">
         <SectionHeading
-          title="Cada mes que pasa es una oportunidad que todavía no está disponible para tus clientes."
+          title="Esperar también es una decisión"
           className="max-w-5xl"
         />
 
         <Reveal className="max-w-3xl md:max-w-[34rem] lg:max-w-3xl">
-          <div className="flex flex-col gap-6 text-base leading-8 text-olive-deep sm:text-lg sm:leading-9">
+          <div className="flex flex-col gap-5 text-base leading-8 text-olive-deep sm:text-lg sm:leading-9">
             <p>
-              Hoy muchas personas descubren negocios por internet antes de escribir un mensaje o visitar una tienda. Mientras tu catálogo, tus promociones y tus formas de compra no estén disponibles de forma sencilla, algunas ventas simplemente no llegarán a producirse.
+              Muchas personas miran un negocio en internet antes de escribir. Si no encuentran catálogo, precios o una forma sencilla de comprar, algunas seguirán de largo.
             </p>
             <p>
-              No se trata de tener una tienda online por tenerla. Se trata de facilitar que más personas encuentren tus productos, confíen en tu marca y puedan comprar con mayor comodidad.
+              No necesitas una tienda por tenerla. Puede convertir el interés que ya generan tus flores en pedidos más fáciles de recibir.
             </p>
-            <p>Cuando decidas comenzar, ese proceso simplemente empezará antes.</p>
+            <p>Cuando te sientas lista, podemos empezar.</p>
           </div>
         </Reveal>
       </div>

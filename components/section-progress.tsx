@@ -45,22 +45,22 @@ export function SectionProgress() {
 
   return (
     <nav
-      aria-label="Progreso de la propuesta"
+      aria-label="Progreso de lectura"
       className={cn(
-        "fixed top-5 right-1/2 z-40 flex translate-x-1/2 items-center rounded-full border border-border/80 bg-white/88 px-4 py-3 shadow-sm backdrop-blur transition-all duration-300 md:top-1/2 md:right-5 md:translate-x-0 md:-translate-y-1/2 md:flex-col md:items-end md:rounded-none md:border-0 md:bg-transparent md:px-0 md:py-0 md:shadow-none md:backdrop-blur-none",
-        visible ? "opacity-100" : "pointer-events-none -translate-y-2 opacity-0 md:-translate-y-[52%]",
+        "fixed top-5 right-1/2 z-40 flex translate-x-1/2 items-center rounded-full border border-border/80 bg-white/88 p-1 shadow-sm backdrop-blur transition-all duration-300 2xl:top-1/2 2xl:right-5 2xl:translate-x-0 2xl:-translate-y-1/2 2xl:flex-col 2xl:items-end 2xl:rounded-none 2xl:border-0 2xl:bg-transparent 2xl:p-0 2xl:shadow-none 2xl:backdrop-blur-none",
+        visible ? "opacity-100" : "pointer-events-none -translate-y-2 opacity-0 2xl:-translate-y-[52%]",
       )}
     >
-      <ol className="flex items-center gap-2 md:flex-col md:items-end md:gap-3">
+      <ol className="flex items-center 2xl:flex-col 2xl:items-end">
         {acts.map((act, index) => (
           <li key={act.id}>
             <a
               href={`#${act.id}`}
               aria-label={act.label}
               aria-current={active === index ? "step" : undefined}
-              className="group flex items-center gap-2 text-xs text-warm-gray transition-colors hover:text-olive"
+              className="group flex min-h-11 min-w-11 items-center justify-center gap-2 text-xs text-warm-gray transition-colors hover:text-olive 2xl:min-w-0 2xl:justify-end"
             >
-              <span aria-hidden="true" className="hidden md:block">{act.label}</span>
+              <span aria-hidden="true" className="hidden 2xl:block">{act.label}</span>
               <span
                 aria-hidden="true"
                 className={cn(

@@ -24,12 +24,12 @@ export function FinalCTA() {
             <div className="flex flex-col gap-4 text-base leading-7 text-olive-deep">
               <p>Karen,</p>
               <p>
-                Hay negocios que venden productos. Otros ayudan a crear recuerdos.
+                Tus flores ayudan a celebrar, acompañar y crear recuerdos.
               </p>
               <p>
-                La Molina Florería pertenece al segundo grupo. Cada arreglo acompaña una emoción y convierte un momento en algo que alguien querrá recordar.
+                Imagino una forma más sencilla de acercarlas a quien las está buscando.
               </p>
-              <p>Será un gusto acompañarte a construir el siguiente capítulo de esa historia.</p>
+              <p>Si esta idea también te hace sentido, conversemos.</p>
             </div>
             <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center">
               <a

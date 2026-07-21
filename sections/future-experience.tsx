@@ -1,3 +1,4 @@
+import { CreditCard, PackageCheck, Smartphone } from "lucide-react";
 import { Reveal, ScaleReveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/section-heading";
 import { StorePreview } from "@/components/store-preview";
@@ -7,19 +8,38 @@ export function FutureExperience() {
     <section id="experiencia" className="proposal-section overflow-hidden bg-white">
       <div className="proposal-container flex flex-col gap-16">
         <SectionHeading
-          title="Así podría ser la nueva experiencia de compra"
-          description="Pensemos en una persona que acaba de descubrir uno de tus arreglos en Instagram."
+          title="Imagina este momento"
+          description="Alguien descubre uno de tus arreglos en Instagram y quiere enviarlo ese mismo día."
         />
-        <Reveal className="max-w-3xl">
-          <p className="text-base leading-8 text-olive-deep sm:text-lg sm:leading-9">
-            Algo en esas flores le recuerda a alguien. Entra a la tienda, recorre las opciones y encuentra el arreglo ideal. Agrega una dedicatoria, elige la fecha y la dirección de entrega y realiza el pago. Mientras esa persona siente que encontró la forma perfecta de decir algo importante, tú recibes el pedido con todo lo necesario y listo para preparar.
-          </p>
-        </Reveal>
+        <div className="grid gap-5 md:grid-cols-3">
+          {[
+            { icon: Smartphone, title: "Lo descubre", text: "Abre un solo enlace desde Instagram." },
+            { icon: CreditCard, title: "Lo elige", text: "Ve el precio, deja la dedicatoria y paga." },
+            { icon: PackageCheck, title: "Tú lo recibes", text: "El pedido llega claro y listo para preparar." },
+          ].map((step, index) => {
+            const Icon = step.icon;
+            return (
+              <Reveal key={step.title} delay={index * 0.08}>
+                <div className="flex h-full items-start gap-4 rounded-[1.5rem] border border-border bg-cream p-6 sm:p-7">
+                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-rose-mist text-olive">
+                    <Icon aria-hidden="true" className="size-5" strokeWidth={1.25} />
+                  </span>
+                  <div className="flex flex-col gap-2">
+                    <h3 className="font-serif text-2xl text-olive">{step.title}</h3>
+                    <p className="text-sm leading-6 text-warm-gray">{step.text}</p>
+                  </div>
+                </div>
+              </Reveal>
+            );
+          })}
+        </div>
         <ScaleReveal>
           <StorePreview />
         </ScaleReveal>
         <Reveal>
-          <p className="text-center text-sm text-warm-gray">Vista conceptual de la futura tienda online.</p>
+          <p className="text-center font-serif text-2xl text-olive sm:text-3xl">
+            Menos tiempo repitiendo respuestas. Más tiempo creando arreglos que alguien va a recordar.
+          </p>
         </Reveal>
       </div>
     </section>

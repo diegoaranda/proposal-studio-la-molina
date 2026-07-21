@@ -42,8 +42,8 @@ export function ProposalFeatures() {
     <section id="propuesta" className="proposal-section bg-cream">
       <div className="proposal-container flex flex-col gap-14">
         <SectionHeading
-          title="Una tienda pensada para cuidar cada compra"
-          description="Desde el primer arreglo que descubre hasta la confirmación del pedido, cada paso puede sentirse sencillo y cuidado."
+          title="Así compraría una persona"
+          description="Sin esperar respuestas para avanzar y sin perder la cercanía cuando realmente la necesita."
         />
         <div className="grid items-center gap-10 lg:grid-cols-[0.72fr_1.55fr_0.72fr]">
           <FeatureList start={0} end={3} />

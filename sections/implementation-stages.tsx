@@ -44,7 +44,7 @@ export function ImplementationStages() {
         <div className="flex max-w-5xl flex-col gap-14">
           <SectionHeading
             title="Podemos empezar a tu ritmo"
-            description="Cada historia encuentra su propio ritmo. La Molina Florería puede comenzar por la opción que mejor acompañe este momento."
+            description="Puedes hacerlo todo de una vez o avanzar en dos etapas, siempre con los costos claros."
           />
           <Reveal>
             <article className="media-shadow flex flex-col gap-8 rounded-[1.75rem] border border-gold/60 bg-white p-7 sm:p-10">
@@ -60,7 +60,7 @@ export function ImplementationStages() {
               </div>
               <IncludedItems items={completeOffer.includes} />
               <div className="flex flex-col gap-5 border-t border-border pt-7">
-                <h4 className="font-serif text-2xl text-olive">Servicios no incluidos</h4>
+                <h4 className="font-serif text-2xl text-olive">Lo que queda fuera</h4>
                 <IncludedItems items={completeOfferExclusions} />
               </div>
             </article>
@@ -70,16 +70,11 @@ export function ImplementationStages() {
             <article className="flex flex-col gap-10 border-t border-gold/50 pt-12">
               <div className="flex max-w-4xl flex-col gap-5">
                 <h3 className="font-serif text-3xl text-olive sm:text-4xl">
-                  Costos necesarios para mantener la tienda publicada
+                  Lo que se paga directamente
                 </h3>
-                <div className="flex max-w-3xl flex-col gap-4 text-base leading-8 text-olive-deep">
-                  <p>
-                    Una vez entregada, la tienda necesita algunos servicios externos para permanecer disponible en internet.
-                  </p>
-                  <p>
-                    Estos servicios estarán registrados a nombre de La Molina Florería y serán pagados directamente por el negocio, de modo que Karen mantenga siempre el control de sus cuentas y accesos.
-                  </p>
-                </div>
+                <p className="max-w-3xl text-base leading-8 text-olive-deep">
+                  Quedan a nombre de La Molina Florería y los pagas directamente. Así conservas el control.
+                </p>
               </div>
 
               <div className="grid gap-5 md:grid-cols-2">
@@ -96,17 +91,12 @@ export function ImplementationStages() {
                 ))}
               </div>
 
-              <div className="flex max-w-4xl flex-col gap-3 border-t border-border pt-7 text-sm leading-7 text-warm-gray">
-                <p>
-                  Los valores indicados corresponden a las tarifas disponibles al momento de preparar esta propuesta y pueden cambiar según cada proveedor.
-                </p>
-                <p>
-                  Si en el futuro el crecimiento de la tienda requiere mayor capacidad o un servicio adicional, el costo será explicado previamente y solo se contratará con la aprobación de Karen.
-                </p>
-              </div>
+              <p className="max-w-4xl border-t border-border pt-7 text-sm leading-7 text-warm-gray">
+                Son valores actuales y pueden cambiar. Si hace falta más capacidad, conocerás el costo antes de aprobarla.
+              </p>
 
               <div className="flex flex-col gap-7">
-                <h4 className="font-serif text-3xl text-olive">Después de la entrega</h4>
+                <h4 className="font-serif text-3xl text-olive">Cuando la tienda ya esté en tus manos</h4>
                 <div className="grid items-stretch gap-5 lg:grid-cols-2">
                   {afterDeliveryOptions.map((option) => (
                     <div key={option.title} className="flex h-full flex-col gap-6 rounded-[1.5rem] border border-border bg-white/90 p-7 sm:p-8">
@@ -126,7 +116,7 @@ export function ImplementationStages() {
 
           <div className="flex flex-col gap-8">
             <Reveal>
-              <h3 className="font-serif text-3xl text-olive sm:text-4xl">También es posible avanzar paso a paso</h3>
+              <h3 className="font-serif text-3xl text-olive sm:text-4xl">Si prefieres avanzar paso a paso</h3>
             </Reveal>
             <div className="grid items-stretch gap-6 md:grid-cols-2">
               {stagedOffers.map((stage, index) => (
@@ -146,7 +136,7 @@ export function ImplementationStages() {
             </div>
             <Reveal>
               <p className="max-w-3xl text-base leading-7 text-olive-deep">
-                Puedes comenzar con la primera etapa y sumar la segunda cuando sea el momento.
+                Puedes sumar las ventas online cuando te resulte cómodo.
               </p>
             </Reveal>
           </div>
@@ -160,7 +150,7 @@ export function ImplementationStages() {
                   <IncludedItems items={paymentTerms} />
                 </div>
                 <div className="flex flex-col gap-3">
-                  <p className="text-sm font-medium uppercase tracking-[0.14em] text-rose-petal">Proyectos por etapas</p>
+                  <p className="text-sm font-medium uppercase tracking-[0.14em] text-rose-petal">Por etapas</p>
                   <IncludedItems items={stagedPaymentTerms} />
                 </div>
               </div>
@@ -169,17 +159,17 @@ export function ImplementationStages() {
             <Reveal className="flex flex-col gap-7" delay={0.08}>
               <h3 className="font-serif text-3xl text-olive">Tiempo estimado</h3>
               <p className="text-base leading-7 text-olive-deep">
-                Entre 6 y 8 semanas para la opción completa, dependiendo de la entrega de contenidos, la aprobación de avances y las credenciales de Izipay.
+                Entre 6 y 8 semanas, según los contenidos, tus aprobaciones y el acceso a Izipay.
               </p>
             </Reveal>
           </div>
 
           <Reveal>
             <article className="flex flex-col gap-7 border-t border-gold/50 pt-12">
-              <h3 className="font-serif text-3xl text-olive">Para comenzar, será importante contar con</h3>
+              <h3 className="font-serif text-3xl text-olive">Para comenzar necesito de ti</h3>
               <IncludedItems items={clientResponsibilities} />
               <p className="max-w-4xl text-sm leading-7 text-warm-gray">
-                La carga inicial de hasta 100 productos está incluida cuando nombres, precios, descripciones y fotografías se entreguen juntos en la plantilla acordada.
+                Puedo cargar hasta 100 productos si recibo juntos textos, precios y fotografías en la plantilla acordada.
               </p>
             </article>
           </Reveal>

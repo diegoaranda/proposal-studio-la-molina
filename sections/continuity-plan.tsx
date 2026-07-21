@@ -19,24 +19,19 @@ export function ContinuityPlan() {
     <section id="continuidad" className="proposal-section bg-white">
       <div className="proposal-container flex flex-col gap-14">
         <SectionHeading
-          title="Después de la entrega, puedes seguir contando con acompañamiento"
-          description="Una tienda online puede necesitar pequeños ajustes, revisiones o actualizaciones con el paso del tiempo."
+          title="Después de la entrega, puedes seguir contando conmigo"
+          description="Si quieres ayuda para mantener la tienda al día, puedes elegir una opción mensual. Es completamente voluntaria."
         />
-        <Reveal className="max-w-3xl">
-          <p className="text-base leading-8 text-olive-deep sm:text-lg sm:leading-9">
-            Por eso, existe la opción de contar con un plan de acompañamiento mensual. Es un servicio completamente opcional, pensado para que siempre tengas a quién acudir cuando necesites ayuda con la tienda.
-          </p>
-        </Reveal>
 
         <Reveal>
           <article className="media-shadow overflow-hidden rounded-[1.75rem] border border-border bg-white">
             <div className="flex flex-col gap-7 border-b border-border p-7 sm:p-10 md:flex-row md:items-end md:justify-between">
               <div className="flex max-w-2xl flex-col gap-3">
                 <p className="text-xs font-medium uppercase tracking-[0.18em] text-rose-petal">
-                  Plan de acompañamiento · Opcional
+                  Opción mensual · Tú decides
                 </p>
                 <h3 className="font-serif text-3xl leading-tight text-olive sm:text-4xl">
-                  Para que siempre tengas a quién acudir cuando lo necesites.
+                  Para que tengas a quién escribir cuando lo necesites.
                 </h3>
               </div>
               <p className="shrink-0 font-serif text-5xl leading-none text-olive sm:text-6xl">
@@ -69,32 +64,23 @@ export function ContinuityPlan() {
 
         <div className="grid gap-10 border-t border-gold/50 pt-12 lg:grid-cols-3">
           <Reveal className="flex flex-col gap-4">
-            <h3 className="font-serif text-3xl text-olive">¿Qué significa este acompañamiento?</h3>
+            <h3 className="font-serif text-3xl text-olive">Si prefieres seguir por tu cuenta</h3>
             <p className="text-base leading-8 text-olive-deep">
-              Significa tener un punto de apoyo para resolver dudas, realizar pequeños cambios y revisar que la tienda se mantenga en buen estado.
-            </p>
-            <p className="text-base leading-8 text-olive-deep">
-              El plan no es obligatorio. Si decides no contratarlo, la tienda seguirá siendo completamente tuya y podrás solicitar cualquier trabajo futuro mediante una cotización puntual.
+              La tienda sigue siendo tuya. Cuando necesites algo, puedes pedirme una cotización puntual.
             </p>
           </Reveal>
 
           <Reveal className="flex flex-col gap-4" delay={0.08}>
             <h3 className="font-serif text-3xl text-olive">Todo queda a tu nombre</h3>
             <p className="text-base leading-8 text-olive-deep">
-              El dominio, el alojamiento, la información de la tienda y la pasarela de pago estarán registrados a nombre de La Molina Florería.
-            </p>
-            <p className="text-base leading-8 text-olive-deep">
-              Esto garantiza que siempre tendrás el control de tus cuentas, accesos y servicios, incluso si decides no contratar el plan de acompañamiento.
+              Dominio, alojamiento, información y pasarela de pago quedan registrados a nombre de La Molina Florería. Tú conservas el control de cuentas y accesos.
             </p>
           </Reveal>
 
           <Reveal className="flex flex-col gap-4" delay={0.16}>
             <h3 className="font-serif text-3xl text-olive">Cuando tu negocio crezca</h3>
             <p className="text-base leading-8 text-olive-deep">
-              Si en el futuro el crecimiento del negocio requiere mayor capacidad, nuevas integraciones o servicios adicionales, cada cambio será explicado y cotizado previamente.
-            </p>
-            <p className="text-base leading-8 text-olive-deep">
-              Nada se contratará ni modificará sin tu aprobación.
+              Si hace falta más capacidad, una nueva integración o un servicio adicional, te explicaré el cambio y su costo. Nada se contrata sin tu aprobación.
             </p>
           </Reveal>
         </div>
@@ -103,19 +89,13 @@ export function ContinuityPlan() {
           <aside className="rounded-[1.5rem] border border-border bg-cream p-7 sm:p-9" aria-labelledby="continuidad-claridad">
             <div className="flex max-w-4xl flex-col gap-3">
               <h3 id="continuidad-claridad" className="font-serif text-2xl text-olive">
-                Para mantener todo claro
+                En una frase
               </h3>
               <p className="text-sm leading-7 text-warm-gray">
-                El plan de acompañamiento de USD 35 mensuales incluye supervisión, mantenimiento, soporte y pequeños ajustes dentro del tiempo indicado.
+                Los USD 35 mensuales cubren revisión, mantenimiento, soporte y pequeños cambios dentro de los 30 minutos indicados.
               </p>
               <p className="text-sm leading-7 text-warm-gray">
-                No incluye el alojamiento profesional de aproximadamente USD 20 mensuales, el dominio, las comisiones de Izipay ni otros servicios externos.
-              </p>
-              <p className="text-sm leading-7 text-warm-gray">
-                Estos costos serán pagados directamente por La Molina Florería.
-              </p>
-              <p className="text-sm leading-7 text-warm-gray">
-                Si el plan no se contrata, cualquier trabajo posterior podrá solicitarse mediante una cotización puntual.
+                Alojamiento, dominio, comisiones de Izipay y otros servicios externos se pagan directamente y por separado.
               </p>
             </div>
           </aside>

@@ -20,7 +20,11 @@ export function Benefits() {
   return (
     <section id="beneficios" className="proposal-section bg-cream">
       <div className="proposal-container flex flex-col gap-14">
-        <SectionHeading title="Lo que vas a notar en el día a día" align="center" />
+        <SectionHeading
+          title="Lo que cambiaría para ti"
+          description="La tienda trabaja en segundo plano mientras tú sigues cuidando cada arreglo."
+          align="center"
+        />
         <div className="grid overflow-hidden rounded-[1.75rem] border border-border bg-white lg:grid-cols-[0.42fr_0.58fr]">
           <ScaleReveal className="relative min-h-[25rem] lg:min-h-full">
             <Image

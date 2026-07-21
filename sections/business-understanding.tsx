@@ -1,11 +1,21 @@
 import Image from "next/image";
-import { Check } from "lucide-react";
+import { Check, Minus } from "lucide-react";
 import understandingBouquet from "@/assets/photography/understanding-bouquet.png";
 import { Reveal, ScaleReveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/section-heading";
 import { businessGoals, currentBusiness } from "@/lib/content";
 
-function UnderstandingList({ title, items }: { title: string; items: readonly string[] }) {
+function UnderstandingList({
+  title,
+  items,
+  after = false,
+}: {
+  title: string;
+  items: readonly string[];
+  after?: boolean;
+}) {
+  const Icon = after ? Check : Minus;
+
   return (
     <div className="flex flex-col gap-5">
       <h3 className="font-serif text-3xl text-olive sm:text-4xl">{title}</h3>
@@ -13,7 +23,7 @@ function UnderstandingList({ title, items }: { title: string; items: readonly st
         {items.map((item) => (
           <li key={item} className="flex items-start gap-3 text-sm leading-6 text-olive-deep sm:text-base">
             <span className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full border border-gold text-gold">
-              <Check aria-hidden="true" className="size-3.5" strokeWidth={1.4} />
+              <Icon aria-hidden="true" className="size-3.5" strokeWidth={1.4} />
             </span>
             {item}
           </li>
@@ -39,17 +49,17 @@ export function BusinessUnderstanding() {
 
         <div className="flex flex-col gap-12">
           <SectionHeading
-            title="Todo lo que ya has construido. Y lo que puede venir"
-            description="La Molina Florería ya tiene algo que no se puede fabricar: confianza, cercanía y una forma muy tuya de hacer las cosas. El siguiente paso es llevar ese mismo cuidado a cada compra."
+            title="Lo que entendí de tu día a día"
+            description="Hoy muestras cerca de 100 productos en Instagram y TikTok, atiendes por WhatsApp y ya cobras con Izipay. Imaginé una forma más simple de ordenar todo eso."
           />
           <Reveal delay={0.08} className="relative grid gap-12 sm:grid-cols-2 sm:gap-10">
             <div aria-hidden="true" className="absolute top-4 right-1/2 hidden h-px w-[44%] translate-x-1/2 bg-gold sm:block" />
-            <UnderstandingList title="Hoy" items={currentBusiness} />
-            <UnderstandingList title="El siguiente paso" items={businessGoals} />
+            <UnderstandingList title="Antes" items={currentBusiness} />
+            <UnderstandingList title="Después" items={businessGoals} after />
           </Reveal>
           <Reveal delay={0.14}>
             <p className="max-w-2xl font-serif text-2xl leading-snug text-olive sm:text-3xl">
-              Lo que ya has construido merece una experiencia de compra a la misma altura. Ahora imaginemos cómo podría sentirse para cada cliente.
+              La diferencia no está en trabajar más. Está en hacer más sencillo lo que hoy ya haces todos los días.
             </p>
           </Reveal>
         </div>
