@@ -43,8 +43,8 @@ export function ImplementationStages() {
       <div className="proposal-container relative">
         <div className="flex max-w-5xl flex-col gap-14">
           <SectionHeading
-            title="Podemos empezar a tu ritmo"
-            description="Puedes hacerlo todo de una vez o avanzar en dos etapas, siempre con los costos claros."
+            title="Empecemos de la forma que mejor se adapte a ti"
+            description="Puedes implementar todo desde el inicio o avanzar por etapas, siempre con costos claros."
           />
           <Reveal>
             <article className="media-shadow flex flex-col gap-8 rounded-[1.75rem] border border-gold/60 bg-white p-7 sm:p-10">
@@ -73,7 +73,7 @@ export function ImplementationStages() {
                   Lo que se paga directamente
                 </h3>
                 <p className="max-w-3xl text-base leading-8 text-olive-deep">
-                  Quedan a nombre de La Molina Florería y los pagas directamente. Así conservas el control.
+                  Los pagas directamente; quedan a nombre de La Molina Florería y conservas el control de cuentas y accesos.
                 </p>
               </div>
 
@@ -92,7 +92,7 @@ export function ImplementationStages() {
               </div>
 
               <p className="max-w-4xl border-t border-border pt-7 text-sm leading-7 text-warm-gray">
-                Son valores actuales y pueden cambiar. Si hace falta más capacidad, conocerás el costo antes de aprobarla.
+                Estos valores pueden cambiar. Conocerás cualquier costo adicional antes de aprobarlo.
               </p>
 
               <div className="flex flex-col gap-7">
@@ -128,6 +128,7 @@ export function ImplementationStages() {
                       </span>
                       <h4 className="font-serif text-3xl leading-tight text-olive">{stage.title}</h4>
                       <p className="font-serif text-4xl text-olive">{stage.price}</p>
+                      <p className="text-sm leading-7 text-olive-deep sm:text-base">{stage.description}</p>
                     </div>
                     <IncludedItems items={stage.includes} />
                   </article>
@@ -136,7 +137,7 @@ export function ImplementationStages() {
             </div>
             <Reveal>
               <p className="max-w-3xl text-base leading-7 text-olive-deep">
-                Puedes sumar las ventas online cuando te resulte cómodo.
+                Puedes sumar las ventas online más adelante.
               </p>
             </Reveal>
           </div>

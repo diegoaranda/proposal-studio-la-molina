@@ -21,17 +21,14 @@ export function PersonalLetter() {
           <article className="flex flex-col gap-7">
             <h2 className="section-title text-olive">Karen,</h2>
             <div className="flex max-w-[42rem] flex-col gap-5 text-base leading-8 text-olive-deep sm:text-lg sm:leading-9">
-              <p>Gracias por contarme un poquito sobre La Molina Florería.</p>
+              <p>Gracias por contarme sobre La Molina Florería.</p>
               <p>
-                Al escucharte pensé algo: no vendes solo flores. Ayudas a celebrar, acompañar y decir lo que a veces cuesta poner en palabras.
+                Entendí que no vendes solo flores: ayudas a celebrar, acompañar y expresar lo que a veces cuesta decir.
               </p>
+              <p>Quiero que esa cercanía también se sienta al comprar.</p>
               <p>
-                Eso se siente cercano, cuidado y muy tuyo. Me gustaría que una persona lo sintiera también al comprar.
+                Instagram y WhatsApp seguirán ahí. La tienda ordenará el catálogo, los precios y los pedidos.
               </p>
-              <p>
-                Instagram y WhatsApp seguirán ahí. La tienda solo ordenará catálogo, precios y pedidos.
-              </p>
-              <p className="font-medium text-olive">Así imagino el siguiente capítulo de La Molina Florería.</p>
             </div>
           </article>
         </Reveal>

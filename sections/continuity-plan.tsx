@@ -19,8 +19,8 @@ export function ContinuityPlan() {
     <section id="continuidad" className="proposal-section bg-white">
       <div className="proposal-container flex flex-col gap-14">
         <SectionHeading
-          title="Después de la entrega, puedes seguir contando conmigo"
-          description="Si quieres ayuda para mantener la tienda al día, puedes elegir una opción mensual. Es completamente voluntaria."
+          title="Acompañamiento después de la entrega"
+          description="Si quieres ayuda para mantener la tienda al día, puedes elegir esta opción mensual y voluntaria."
         />
 
         <Reveal>
@@ -62,44 +62,6 @@ export function ContinuityPlan() {
           </article>
         </Reveal>
 
-        <div className="grid gap-10 border-t border-gold/50 pt-12 lg:grid-cols-3">
-          <Reveal className="flex flex-col gap-4">
-            <h3 className="font-serif text-3xl text-olive">Si prefieres seguir por tu cuenta</h3>
-            <p className="text-base leading-8 text-olive-deep">
-              La tienda sigue siendo tuya. Cuando necesites algo, puedes pedirme una cotización puntual.
-            </p>
-          </Reveal>
-
-          <Reveal className="flex flex-col gap-4" delay={0.08}>
-            <h3 className="font-serif text-3xl text-olive">Todo queda a tu nombre</h3>
-            <p className="text-base leading-8 text-olive-deep">
-              Dominio, alojamiento, información y pasarela de pago quedan registrados a nombre de La Molina Florería. Tú conservas el control de cuentas y accesos.
-            </p>
-          </Reveal>
-
-          <Reveal className="flex flex-col gap-4" delay={0.16}>
-            <h3 className="font-serif text-3xl text-olive">Cuando tu negocio crezca</h3>
-            <p className="text-base leading-8 text-olive-deep">
-              Si hace falta más capacidad, una nueva integración o un servicio adicional, te explicaré el cambio y su costo. Nada se contrata sin tu aprobación.
-            </p>
-          </Reveal>
-        </div>
-
-        <Reveal>
-          <aside className="rounded-[1.5rem] border border-border bg-cream p-7 sm:p-9" aria-labelledby="continuidad-claridad">
-            <div className="flex max-w-4xl flex-col gap-3">
-              <h3 id="continuidad-claridad" className="font-serif text-2xl text-olive">
-                En una frase
-              </h3>
-              <p className="text-sm leading-7 text-warm-gray">
-                Los USD 35 mensuales cubren revisión, mantenimiento, soporte y pequeños cambios dentro de los 30 minutos indicados.
-              </p>
-              <p className="text-sm leading-7 text-warm-gray">
-                Alojamiento, dominio, comisiones de Izipay y otros servicios externos se pagan directamente y por separado.
-              </p>
-            </div>
-          </aside>
-        </Reveal>
       </div>
     </section>
   );

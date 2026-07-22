@@ -1,27 +1,27 @@
 export const currentBusiness = [
-  "Enviar varias fotografías.",
-  "Responder si un arreglo está disponible.",
-  "Explicar precios una y otra vez.",
-  "Coordinar pagos por mensaje.",
-  "Buscar pedidos entre conversaciones.",
+  "Enviar fotografías por mensaje.",
+  "Confirmar la disponibilidad.",
+  "Repetir precios.",
+  "Coordinar pagos por WhatsApp.",
+  "Buscar pedidos en conversaciones.",
 ] as const;
 
 export const businessGoals = [
   "Compartir un solo enlace.",
-  "Tener el catálogo siempre disponible.",
-  "Mostrar precios con claridad.",
-  "Recibir pagos organizados.",
-  "Encontrar pedidos más claros.",
+  "Mantener el catálogo disponible.",
+  "Mostrar precios claros.",
+  "Organizar pagos.",
+  "Encontrar cada pedido fácilmente.",
 ] as const;
 
 export const proposalFeatures = [
   {
     title: "Encontrar",
-    description: "Todo el catálogo reunido en un solo lugar.",
+    description: "Todo el catálogo en un solo lugar.",
   },
   {
     title: "Elegir",
-    description: "Fotos, detalles y precios para decidir con calma.",
+    description: "Fotos, detalles y precios para elegir con calma.",
   },
   {
     title: "Personalizar",
@@ -29,40 +29,40 @@ export const proposalFeatures = [
   },
   {
     title: "Pagar",
-    description: "Un pago sencillo y seguro con Izipay.",
+    description: "Pago sencillo y seguro con Izipay.",
   },
   {
     title: "Confirmar",
-    description: "Cada pedido llega completo y listo para preparar.",
+    description: "El pedido llega completo y listo para preparar.",
   },
   {
     title: "Conversar",
-    description: "WhatsApp queda para lo que sí necesita cercanía.",
+    description: "WhatsApp queda para la atención personal.",
   },
 ] as const;
 
 export const benefits = [
   "Un solo enlace para Instagram, Facebook y WhatsApp.",
-  "Menos preguntas repetidas sobre precios y disponibilidad.",
-  "Pedidos y pagos más fáciles de encontrar.",
-  "Compras posibles incluso cuando estés ocupada.",
-  "Más confianza para quien descubre la florería por primera vez.",
-  "Promociones más fáciles de compartir y una base para seguir creciendo.",
+  "Menos preguntas sobre precios y disponibilidad.",
+  "Pedidos y pagos fáciles de encontrar.",
+  "Compras incluso cuando estés ocupada.",
+  "Más confianza para nuevos clientes.",
+  "Promociones fáciles de compartir y una base para crecer.",
 ] as const;
 
 export const processSteps = [
   "Te escucho y ordenamos las ideas.",
-  "Te muestro cómo se verá.",
-  "Construyo la tienda.",
-  "Conectamos pagos y pedidos.",
-  "Probamos todo juntos.",
-  "La publicamos y te explico cómo usarla.",
+  "Te presento una propuesta de diseño.",
+  "Desarrollo la página web.",
+  "Integramos catálogo, pagos y pedidos.",
+  "Revisamos todo juntos y hacemos los ajustes necesarios.",
+  "Publicamos la página y te enseño a administrarla.",
 ] as const;
 
 export const completeOffer = {
   title: "Una opción completa para comenzar",
   price: "USD 950",
-  description: "La tienda lista para vender y aprender a manejarla.",
+  description: "La tienda lista para vender y administrar.",
   includes: [
     "Diseño personalizado para computadora, tablet y celular.",
     "Catálogo con fichas de producto.",
@@ -91,22 +91,22 @@ export const externalServiceCosts = [
   {
     title: "Alojamiento profesional",
     price: "Aproximadamente USD 20 / mes",
-    description: "Mantiene la tienda disponible todo el día.",
+    description: "Mantiene la tienda disponible.",
   },
   {
     title: "Base de información",
     price: "Sin costo al comenzar",
-    description: "Guarda productos, pedidos e información.",
+    description: "Guarda productos y pedidos.",
   },
   {
     title: "Dominio",
     price: "Pago anual",
-    description: "Su precio depende del nombre y proveedor elegidos.",
+    description: "Depende del nombre y proveedor elegidos.",
   },
   {
     title: "Izipay",
     price: "Según contrato",
-    description: "Las comisiones dependen del acuerdo directo con Izipay.",
+    description: "Las comisiones dependen de tu acuerdo con Izipay.",
   },
 ] as const;
 
@@ -125,8 +125,7 @@ export const afterDeliveryOptions = [
     title: "Seguir contando conmigo",
     includes: [
       "USD 35 adicionales al mes.",
-      "Supervisión, mantenimiento, soporte y pequeños ajustes.",
-      "Opcional, incluso después de la entrega.",
+      "Acompañamiento opcional, incluso después de la entrega.",
     ],
   },
 ] as const;
@@ -135,35 +134,37 @@ export const stagedOffers = [
   {
     title: "Comenzar con una base sólida",
     price: "USD 550",
+    description: "Una página para mostrar tus flores y promociones, y facilitar el contacto desde un solo lugar.",
     includes: [
       "Página principal.",
       "Catálogo.",
       "Promociones.",
       "WhatsApp.",
-      "Espacio para mantener el catálogo al día.",
+      "Administración del catálogo.",
       "Carga inicial de hasta 100 productos.",
     ],
   },
   {
     title: "Incorporar las ventas online",
     price: "USD 450",
+    description: "Una tienda donde tus clientes pueden completar su compra y tú recibes cada pedido organizado.",
     includes: [
-      "Compra de principio a fin.",
+      "Compra completa.",
       "Pagos con Izipay.",
       "Dedicatorias.",
       "Fecha y dirección de entrega.",
-      "Pedidos reunidos en un solo lugar.",
+      "Pedidos en un solo lugar.",
     ],
   },
 ] as const;
 
 export const continuityServices = [
-  "Revisión periódica de la tienda.",
+  "Revisión periódica.",
   "Mantenimiento y actualizaciones.",
-  "Copias de seguridad periódicas.",
+  "Copias de seguridad.",
   "Soporte ante dudas o problemas.",
-  "Hasta 30 minutos al mes para pequeños cambios.",
-  "Orientación para ajustes y decisiones.",
+  "Hasta 30 minutos mensuales para pequeños cambios.",
+  "Orientación para futuros ajustes.",
 ] as const;
 
 export const paymentTerms = [

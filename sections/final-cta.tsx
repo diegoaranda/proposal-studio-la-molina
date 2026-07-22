@@ -20,16 +20,21 @@ export function FinalCTA() {
             />
           </ScaleReveal>
           <Reveal className="flex flex-col justify-center gap-8 p-8 sm:p-12 lg:p-16" direction="right">
-            <h2 className="section-title text-olive">El siguiente capítulo puede comenzar aquí</h2>
+            <h2 className="section-title text-olive">¿Empezamos?</h2>
             <div className="flex flex-col gap-4 text-base leading-7 text-olive-deep">
               <p>Karen,</p>
               <p>
-                Tus flores ayudan a celebrar, acompañar y crear recuerdos.
+                Gracias por tomarte el tiempo de revisar esta propuesta.
               </p>
               <p>
-                Imagino una forma más sencilla de acercarlas a quien las está buscando.
+                Espero que te haya permitido visualizar cómo una página web puede ayudar a hacer crecer La Molina Florería y facilitar la experiencia de tus clientes.
               </p>
-              <p>Si esta idea también te hace sentido, conversemos.</p>
+              <p>
+                Si sientes que este es el camino correcto para tu negocio, estaré encantado de construirlo contigo.
+              </p>
+              <p>
+                Y si antes quieres revisar algún detalle o resolver una duda, con gusto lo vemos juntos.
+              </p>
             </div>
             <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center">
               <a
@@ -45,9 +50,6 @@ export function FinalCTA() {
                 Conversemos
               </a>
             </div>
-            <p className="text-sm leading-6 text-warm-gray">
-              Preparado especialmente para Karen y La Molina Florería.
-            </p>
           </Reveal>
         </div>
       </div>

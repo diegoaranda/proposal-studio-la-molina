@@ -22,7 +22,7 @@ export function Benefits() {
       <div className="proposal-container flex flex-col gap-14">
         <SectionHeading
           title="Lo que cambiaría para ti"
-          description="La tienda trabaja en segundo plano mientras tú sigues cuidando cada arreglo."
+          description="La tienda sigue activa mientras tú atiendes el negocio."
           align="center"
         />
         <div className="grid overflow-hidden rounded-[1.75rem] border border-border bg-white lg:grid-cols-[0.42fr_0.58fr]">

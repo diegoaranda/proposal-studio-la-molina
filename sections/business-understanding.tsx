@@ -50,7 +50,7 @@ export function BusinessUnderstanding() {
         <div className="flex flex-col gap-12">
           <SectionHeading
             title="Lo que entendí de tu día a día"
-            description="Hoy muestras cerca de 100 productos en Instagram y TikTok, atiendes por WhatsApp y ya cobras con Izipay. Imaginé una forma más simple de ordenar todo eso."
+            description="Muestras cerca de 100 productos en redes, atiendes por WhatsApp y cobras con Izipay. La tienda puede reunirlo todo."
           />
           <Reveal delay={0.08} className="relative grid gap-12 sm:grid-cols-2 sm:gap-10">
             <div aria-hidden="true" className="absolute top-4 right-1/2 hidden h-px w-[44%] translate-x-1/2 bg-gold sm:block" />
@@ -59,7 +59,7 @@ export function BusinessUnderstanding() {
           </Reveal>
           <Reveal delay={0.14}>
             <p className="max-w-2xl font-serif text-2xl leading-snug text-olive sm:text-3xl">
-              La diferencia no está en trabajar más. Está en hacer más sencillo lo que hoy ya haces todos los días.
+              La diferencia está en hacer más sencillo lo que ya haces.
             </p>
           </Reveal>
         </div>

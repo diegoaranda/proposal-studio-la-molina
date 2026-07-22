@@ -9,7 +9,7 @@ export function FutureExperience() {
       <div className="proposal-container flex flex-col gap-16">
         <SectionHeading
           title="Imagina este momento"
-          description="Alguien descubre uno de tus arreglos en Instagram y quiere enviarlo ese mismo día."
+          description="Alguien descubre un arreglo en Instagram y quiere enviarlo ese día."
         />
         <div className="grid gap-5 md:grid-cols-3">
           {[
@@ -38,7 +38,7 @@ export function FutureExperience() {
         </ScaleReveal>
         <Reveal>
           <p className="text-center font-serif text-2xl text-olive sm:text-3xl">
-            Menos tiempo repitiendo respuestas. Más tiempo creando arreglos que alguien va a recordar.
+            Todo claro, de principio a fin.
           </p>
         </Reveal>
       </div>

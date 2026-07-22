@@ -2,7 +2,6 @@ import { SectionProgress } from "@/components/section-progress";
 import { Benefits } from "@/sections/benefits";
 import { BusinessUnderstanding } from "@/sections/business-understanding";
 import { ContinuityPlan } from "@/sections/continuity-plan";
-import { DecisionReflection } from "@/sections/decision-reflection";
 import { FinalCTA } from "@/sections/final-cta";
 import { Footer } from "@/sections/footer";
 import { FutureExperience } from "@/sections/future-experience";
@@ -31,7 +30,6 @@ export default function Home() {
         <Benefits />
         <Timeline />
         <ImplementationStages />
-        <DecisionReflection />
         <ContinuityPlan />
         <FinalCTA />
       </main>
