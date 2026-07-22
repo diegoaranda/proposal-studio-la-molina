@@ -30,10 +30,10 @@ export function FinalCTA() {
                 Espero que te haya permitido visualizar cómo una página web puede ayudar a hacer crecer La Molina Florería y facilitar la experiencia de tus clientes.
               </p>
               <p>
-                Si sientes que este es el camino correcto para tu negocio, estaré encantado de construirlo contigo.
+                Si sientes que esta propuesta es el camino correcto para tu negocio, estaré encantado de construirla contigo.
               </p>
               <p>
-                Y si antes quieres revisar algún detalle o resolver una duda, con gusto lo vemos juntos.
+                Y si antes de comenzar quieres revisar algún detalle o resolver cualquier duda, con gusto lo vemos juntos.
               </p>
             </div>
             <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center">

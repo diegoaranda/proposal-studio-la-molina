@@ -19,8 +19,8 @@ export function ContinuityPlan() {
     <section id="continuidad" className="proposal-section bg-white">
       <div className="proposal-container flex flex-col gap-14">
         <SectionHeading
-          title="Acompañamiento después de la entrega"
-          description="Si quieres ayuda para mantener la tienda al día, puedes elegir esta opción mensual y voluntaria."
+          title="Después de la entrega, puedes seguir contando conmigo"
+          description="Si quieres ayuda para mantener la tienda al día, puedes elegir una opción mensual. Es completamente voluntaria."
         />
 
         <Reveal>

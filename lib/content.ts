@@ -55,7 +55,7 @@ export const processSteps = [
   "Te presento una propuesta de diseño.",
   "Desarrollo la página web.",
   "Integramos catálogo, pagos y pedidos.",
-  "Revisamos todo juntos y hacemos los ajustes necesarios.",
+  "Revisamos juntos y realizamos los ajustes necesarios.",
   "Publicamos la página y te enseño a administrarla.",
 ] as const;
 
@@ -134,7 +134,7 @@ export const stagedOffers = [
   {
     title: "Comenzar con una base sólida",
     price: "USD 550",
-    description: "Una página para mostrar tus flores y promociones, y facilitar el contacto desde un solo lugar.",
+    description: "Una página diseñada para que tus clientes puedan conocer tus flores, promociones y contactarte fácilmente desde un solo lugar.",
     includes: [
       "Página principal.",
       "Catálogo.",
