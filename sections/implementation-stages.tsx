@@ -116,7 +116,7 @@ export function ImplementationStages() {
 
           <div className="flex flex-col gap-8">
             <Reveal>
-              <h3 className="font-serif text-3xl text-olive sm:text-4xl">Si prefieres avanzar paso a paso</h3>
+              <h3 className="font-serif text-3xl text-olive sm:text-4xl">Puedes empezar poco a poco o si prefieres avanzar por etapas</h3>
             </Reveal>
             <div className="grid items-stretch gap-6 md:grid-cols-2">
               {stagedOffers.map((stage, index) => (
@@ -158,20 +158,17 @@ export function ImplementationStages() {
             </Reveal>
 
             <Reveal className="flex flex-col gap-7" delay={0.08}>
-              <h3 className="font-serif text-3xl text-olive">Tiempo estimado</h3>
+              <h3 className="font-serif text-3xl text-olive">Tiempo de entrega</h3>
               <p className="text-base leading-7 text-olive-deep">
-                Entre 6 y 8 semanas, según los contenidos, tus aprobaciones y el acceso a Izipay.
+                Entre 6 y 8 semanas, dependiendo de la entrega de contenidos, las aprobaciones y la activación de Izipay.
               </p>
             </Reveal>
           </div>
 
           <Reveal>
             <article className="flex flex-col gap-7 border-t border-gold/50 pt-12">
-              <h3 className="font-serif text-3xl text-olive">Para comenzar necesito de ti</h3>
+              <h3 className="font-serif text-3xl text-olive">Para comenzar, necesitaré:</h3>
               <IncludedItems items={clientResponsibilities} />
-              <p className="max-w-4xl text-sm leading-7 text-warm-gray">
-                Puedo cargar hasta 100 productos si recibo juntos textos, precios y fotografías en la plantilla acordada.
-              </p>
             </article>
           </Reveal>
         </div>

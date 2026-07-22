@@ -38,7 +38,9 @@ export function FutureExperience() {
         </ScaleReveal>
         <Reveal>
           <p className="text-center font-serif text-2xl text-olive sm:text-3xl">
-            Todo claro, de principio a fin.
+            Más tiempo para crear.
+            <br />
+            Menos tiempo respondiendo las mismas consultas.
           </p>
         </Reveal>
       </div>

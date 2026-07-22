@@ -49,17 +49,17 @@ export function BusinessUnderstanding() {
 
         <div className="flex flex-col gap-12">
           <SectionHeading
-            title="Lo que entendí de tu día a día"
-            description="Muestras cerca de 100 productos en redes, atiendes por WhatsApp y cobras con Izipay. La tienda puede reunirlo todo."
+            title="Cómo imagino que una página web podría ayudarte"
+            description="Hoy compartes tus productos en Instagram y TikTok, atiendes consultas por WhatsApp y gestionas los pagos por ese mismo medio. Una página web puede reunir todo eso en un solo lugar, haciendo el proceso más simple tanto para ti como para tus clientes."
           />
           <Reveal delay={0.08} className="relative grid gap-12 sm:grid-cols-2 sm:gap-10">
             <div aria-hidden="true" className="absolute top-4 right-1/2 hidden h-px w-[44%] translate-x-1/2 bg-gold sm:block" />
-            <UnderstandingList title="Antes" items={currentBusiness} />
-            <UnderstandingList title="Después" items={businessGoals} after />
+            <UnderstandingList title="Hoy" items={currentBusiness} />
+            <UnderstandingList title="Con una página web" items={businessGoals} after />
           </Reveal>
           <Reveal delay={0.14}>
             <p className="max-w-2xl font-serif text-2xl leading-snug text-olive sm:text-3xl">
-              La diferencia está en hacer más sencillo lo que ya haces.
+              El objetivo no es cambiar tu forma de vender, sino facilitarla y brindar una mejor experiencia a tus clientes.
             </p>
           </Reveal>
         </div>

@@ -1,17 +1,17 @@
 export const currentBusiness = [
-  "Enviar fotografías por mensaje.",
-  "Confirmar la disponibilidad.",
-  "Repetir precios.",
-  "Coordinar pagos por WhatsApp.",
-  "Buscar pedidos en conversaciones.",
+  "Compartes varias fotografías de un mismo arreglo.",
+  "Respondes consultas sobre disponibilidad.",
+  "Explicas precios por mensaje.",
+  "Coordinas pedidos y pagos por WhatsApp.",
+  "Buscas conversaciones para dar seguimiento a un pedido.",
 ] as const;
 
 export const businessGoals = [
-  "Compartir un solo enlace.",
-  "Mantener el catálogo disponible.",
-  "Mostrar precios claros.",
-  "Organizar pagos.",
-  "Encontrar cada pedido fácilmente.",
+  "Compartes un solo enlace.",
+  "Tu catálogo está disponible las 24 horas.",
+  "Los precios y detalles están claros desde el inicio.",
+  "Los pedidos llegan de forma más organizada.",
+  "Es más fácil dar seguimiento a cada compra.",
 ] as const;
 
 export const proposalFeatures = [
@@ -55,14 +55,14 @@ export const processSteps = [
   "Te presento una propuesta de diseño.",
   "Desarrollo la página web.",
   "Integramos catálogo, pagos y pedidos.",
-  "Revisamos juntos y realizamos los ajustes necesarios.",
-  "Publicamos la página y te enseño a administrarla.",
+  "Revisamos todo juntos y hacemos ajustes.",
+  "La publicamos y te enseño a administrarla.",
 ] as const;
 
 export const completeOffer = {
   title: "Una opción completa para comenzar",
   price: "USD 950",
-  description: "La tienda lista para vender y administrar.",
+  description: "Una tienda lista para recibir pedidos, con la capacitación necesaria para que puedas administrarla con tranquilidad.",
   includes: [
     "Diseño personalizado para computadora, tablet y celular.",
     "Catálogo con fichas de producto.",
@@ -132,9 +132,9 @@ export const afterDeliveryOptions = [
 
 export const stagedOffers = [
   {
-    title: "Comenzar con una base sólida",
+    title: "Una página web para tu negocio",
     price: "USD 550",
-    description: "Una página diseñada para que tus clientes puedan conocer tus flores, promociones y contactarte fácilmente desde un solo lugar.",
+    description: "Una página diseñada para que tus clientes puedan conocer tus productos, promociones, consultar precios y puedan contactarte fácilmente por WhatsApp desde un solo lugar.",
     includes: [
       "Página principal.",
       "Catálogo.",
@@ -145,9 +145,9 @@ export const stagedOffers = [
     ],
   },
   {
-    title: "Incorporar las ventas online",
+    title: "Tu tienda online lista para vender",
     price: "USD 450",
-    description: "Una tienda donde tus clientes pueden completar su compra y tú recibes cada pedido organizado.",
+    description: "Tus clientes podrán elegir sus arreglos, realizar sus pedidos y pagar directamente desde la página, haciendo el proceso de compra más rápido y sencillo.",
     includes: [
       "Compra completa.",
       "Pagos con Izipay.",
@@ -159,31 +159,31 @@ export const stagedOffers = [
 ] as const;
 
 export const continuityServices = [
-  "Revisión periódica.",
+  "Revisión periódica de la tienda.",
   "Mantenimiento y actualizaciones.",
-  "Copias de seguridad.",
+  "Copias de seguridad periódicas.",
   "Soporte ante dudas o problemas.",
-  "Hasta 30 minutos mensuales para pequeños cambios.",
-  "Orientación para futuros ajustes.",
+  "Hasta 30 minutos al mes para pequeños cambios.",
+  "Orientación para ajustes y decisiones.",
 ] as const;
 
 export const paymentTerms = [
-  "50% para comenzar.",
-  "30% después de aprobar el diseño y el flujo principal.",
-  "20% antes de publicar.",
+  "50% para comenzar el proyecto.",
+  "30% al aprobar el diseño y el flujo principal.",
+  "20% antes de la publicación del sitio.",
 ] as const;
 
 export const stagedPaymentTerms = [
-  "50% al comenzar cada etapa.",
-  "50% al finalizarla.",
+  "50% al iniciar cada etapa.",
+  "50% al finalizar cada etapa.",
 ] as const;
 
 export const clientResponsibilities = [
-  "Logo oficial.",
-  "Fotografías.",
+  "Logo de tu marca.",
+  "Fotografías de los productos.",
   "Nombres, precios y descripciones de los productos.",
-  "Categorías.",
-  "Políticas de entrega.",
+  "Categorías de productos.",
+  "Información sobre entregas.",
   "Datos de contacto.",
-  "Acceso a Izipay para preparar los pagos.",
+  "Acceso a Izipay (cuando corresponda) para configurar los pagos.",
 ] as const;

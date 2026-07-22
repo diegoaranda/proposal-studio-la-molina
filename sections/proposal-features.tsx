@@ -42,7 +42,7 @@ export function ProposalFeatures() {
     <section id="propuesta" className="proposal-section bg-cream">
       <div className="proposal-container flex flex-col gap-14">
         <SectionHeading
-          title="Así compraría una persona"
+          title="Así sería la experiencia de compra"
           description="Sin esperar respuestas y con ayuda cuando realmente la necesite."
         />
         <div className="grid items-center gap-10 lg:grid-cols-[0.72fr_1.55fr_0.72fr]">

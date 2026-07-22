@@ -19,15 +19,11 @@ export function PersonalLetter() {
         <div />
         <Reveal className="max-w-3xl">
           <article className="flex flex-col gap-7">
-            <h2 className="section-title text-olive">Karen,</h2>
+            <h2 className="section-title text-olive">Hola Karen,</h2>
             <div className="flex max-w-[42rem] flex-col gap-5 text-base leading-8 text-olive-deep sm:text-lg sm:leading-9">
-              <p>Gracias por contarme sobre La Molina Florería.</p>
+              <p>Gracias por tomarte el tiempo de revisar esta propuesta.</p>
               <p>
-                Entendí que no vendes solo flores: ayudas a celebrar, acompañar y expresar lo que a veces cuesta decir.
-              </p>
-              <p>Quiero que esa cercanía también se sienta al comprar.</p>
-              <p>
-                Instagram y WhatsApp seguirán ahí. La tienda ordenará el catálogo, los precios y los pedidos.
+                Estuve viendo las redes sociales de La Molina Florería y me gustó mucho la forma en que presentas tu trabajo. La idea no es cambiar la manera en la que hoy vendes, sino complementar lo que ya haces con una página web que te permita organizar mejor tu catálogo, facilitar la gestión de pedidos y hacer que tus productos sean más fáciles de encontrar y comprar.
               </p>
             </div>
           </article>

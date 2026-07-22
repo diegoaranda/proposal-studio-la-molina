@@ -19,8 +19,8 @@ export function ContinuityPlan() {
     <section id="continuidad" className="proposal-section bg-white">
       <div className="proposal-container flex flex-col gap-14">
         <SectionHeading
-          title="Después de la entrega, puedes seguir contando conmigo"
-          description="Si quieres ayuda para mantener la tienda al día, puedes elegir una opción mensual. Es completamente voluntaria."
+          title="Después de la entrega, puedo seguir ayudándote."
+          description="Si en algún momento necesitas ayuda para mantener o actualizar tu página, puedes contar con un plan de soporte mensual. Es completamente opcional."
         />
 
         <Reveal>
@@ -30,9 +30,6 @@ export function ContinuityPlan() {
                 <p className="text-xs font-medium uppercase tracking-[0.18em] text-rose-petal">
                   Opción mensual · Tú decides
                 </p>
-                <h3 className="font-serif text-3xl leading-tight text-olive sm:text-4xl">
-                  Para que tengas a quién escribir cuando lo necesites.
-                </h3>
               </div>
               <p className="shrink-0 font-serif text-5xl leading-none text-olive sm:text-6xl">
                 USD 35 <span className="text-2xl text-warm-gray sm:text-3xl">/ mes</span>
